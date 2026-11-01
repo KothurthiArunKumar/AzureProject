@@ -12,7 +12,7 @@ public class DemoController {
 	public String checkMethod() {
 		return "Working";
 	}
-	@GetMapping
+	@GetMapping("/edit")
 	public String deploymentCheck() {
 		return "Edited Code Deployed";
 	}
