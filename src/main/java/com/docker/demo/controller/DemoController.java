@@ -26,5 +26,9 @@ public class DemoController {
 	public String firstInput(@PathVariable String name) {
 		return demoService.demoFirstService(name);
 	}
+	@GetMapping("/param")
+	public String secInput(@RequestParam String name) {
+		return demoService.demoFirstService(name);
+	}
 	
 }
