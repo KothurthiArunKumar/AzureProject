@@ -12,4 +12,8 @@ public class DemoController {
 	public String checkMethod() {
 		return "Working";
 	}
+	@GetMapping
+	public String deploymentCheck() {
+		return "Edited Code Deployed";
+	}
 }
